@@ -36,7 +36,7 @@ with x:
             response = requests.post(
                 f"https://api.github.com/repos/{repo}/actions/workflows/daily_refresh.yml/dispatches",
                 headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
-                json={"ref": "main"}, timeout=20
+                json={"ref": "app.py"}, timeout=20
             )
             if response.status_code == 204:
                 st.success("Refresh workflow started. New listings will appear after GitHub Actions finishes and commits the updated tracker.")
