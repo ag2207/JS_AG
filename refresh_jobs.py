@@ -5,7 +5,17 @@ from jobs_store import load_store, save_store, fingerprint, now_iso
 ROLE_TERMS=["supply chain","supply planning","s&op","sourcing","procurement","inventory","quick commerce","process excellence","operations excellence","demand planning","materials planning"]
 EXCLUDE=["sales","investment banking","accountant","financial analyst","relationship manager","insurance sales","equity research"]
 SKILLS=["sap mm","power bi","excel","mrp","bom","otif","vendor management","inventory optimisation","six sigma","quick commerce","forecasting","manufacturing"]
-def norm(x): return re.sub(r"\\s+"," ",(x or "").strip())
+INDIA_LOCATION_TERMS = [
+ "india", "mumbai", "thane", "navi mumbai", "pune", "bengaluru", "bangalore",
+ "hyderabad", "delhi", "noida", "gurugram", "gurgaon", "ahmedabad", "vadodara",
+ "baroda", "chennai", "kolkata", "jaipur", "indore", "nagpur", "kochi"
+]
+def is_india_location(location):
+ loc = (location or "").lower()
+ # Generic "Remote" and "Not specified" are not sufficient evidence of India eligibility.
+ return any(term in loc for term in INDIA_LOCATION_TERMS)
+
+def norm(x): return re.sub(r"\s+"," ",(x or "").strip())
 def classify(t):
  t=t.lower()
  if any(x in t for x in ["sourcing","procurement","vendor"]): return "Sourcing / Procurement"
@@ -65,6 +75,8 @@ def main():
  for j in raw:
   j={k:norm(v) if isinstance(v,str) else v for k,v in j.items()}
   if not j.get("title") or not j.get("url") or not relevant(j): continue
+  # Exclude international results returned by global job sources.
+  if not is_india_location(j.get("location", "")): continue
   j["role_family"]=classify(j["title"]+" "+j.get("description","")); j["match_score"],j["match_reasons"]=score(j)
   j["experience_text"]="Not specified"; j["experience_max"]=None
   fp=fingerprint(j)
@@ -75,11 +87,16 @@ def main():
   s["jobs"].append(j); existing[fp]=j; added+=1
  cutoff=datetime.now(timezone.utc)-timedelta(days=14); active=[]
  for j in s["jobs"]:
+  if not is_india_location(j.get("location", "")):
+   j["archive_reason"]="Outside India target geography or location not specified"
+   j["archived_at"]=now_iso()
+   s["archive"].append(j)
+   continue
   try:
    dt=datetime.fromisoformat(j.get("added_at","").replace("Z","+00:00"))
    if dt<cutoff: j["archive_reason"]="Older than 14 days"; j["archived_at"]=now_iso(); s["archive"].append(j)
    else: active.append(j)
   except Exception: active.append(j)
- s["jobs"]=active; s["meta"].update({"last_refresh":now_iso(),"last_added":added,"sources_checked":["Adzuna","Arbeitnow","Remotive","Apify"]})
+ s["jobs"]=active; s["meta"].update({"last_refresh":now_iso(),"last_added":added,"sources_checked":["Adzuna (Mumbai default)","Arbeitnow (India-filtered)","Remotive (India-filtered)","Apify (India-filtered)"]})
  save_store(s); print(f"Refresh complete: added {added}, active {len(active)}, archived {len(s['archive'])}")
 if __name__=="__main__": main()
