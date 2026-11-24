@@ -1,0 +1,31 @@
+name: Daily job refresh
+on:
+  schedule:
+    - cron: "30 2 * * *" # 08:00 IST
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Refresh listings
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          APIFY_ACTOR_ID: ${{ secrets.APIFY_ACTOR_ID }}
+          APIFY_INPUT_JSON: ${{ secrets.APIFY_INPUT_JSON }}
+        run: python refresh_jobs.py
+      - name: Commit data
+        run: |
+          git config user.name "job-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.json
+          git diff --cached --quiet || git commit -m "Daily job refresh"
+          git push
