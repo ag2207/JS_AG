@@ -1,5 +1,6 @@
 {
-  "jobs": [
+  "jobs": [],
+  "archive": [
     {
       "title": "Electrical Engineer",
       "company": "pplwise",
@@ -15,7 +16,9 @@
       "experience_max": null,
       "id": "5eccc84e7c728b",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.455174+00:00"
+      "added_at": "2026-11-24T20:29:33.455174+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283850+00:00"
     },
     {
       "title": "Senior Hardware Engineer – Mechanics",
@@ -32,7 +35,9 @@
       "experience_max": null,
       "id": "9ccabc77e70dcb",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.455584+00:00"
+      "added_at": "2026-11-24T20:29:33.455584+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283864+00:00"
     },
     {
       "title": "Senior Mechanical Engineer – Product Development",
@@ -49,7 +54,9 @@
       "experience_max": null,
       "id": "80f932741383a0",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.455975+00:00"
+      "added_at": "2026-11-24T20:29:33.455975+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283868+00:00"
     },
     {
       "title": "Elektronik-Ingenieur",
@@ -66,7 +73,9 @@
       "experience_max": null,
       "id": "c8689917dc1a83",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.456193+00:00"
+      "added_at": "2026-11-24T20:29:33.456193+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283871+00:00"
     },
     {
       "title": "Hardwareentwickler - Elektronik",
@@ -83,7 +92,9 @@
       "experience_max": null,
       "id": "31097e6697b162",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.456396+00:00"
+      "added_at": "2026-11-24T20:29:33.456396+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283873+00:00"
     },
     {
       "title": "Hardwareingenieur - Elektronik",
@@ -100,7 +111,9 @@
       "experience_max": null,
       "id": "b052c05e95d682",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.456590+00:00"
+      "added_at": "2026-11-24T20:29:33.456590+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283876+00:00"
     },
     {
       "title": "Hardware Engineer - Electronics",
@@ -117,7 +130,9 @@
       "experience_max": null,
       "id": "a72f8699d968ff",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.456777+00:00"
+      "added_at": "2026-11-24T20:29:33.456777+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283879+00:00"
     },
     {
       "title": "Produktionsmitarbeiter  (m/w/d)",
@@ -134,7 +149,9 @@
       "experience_max": null,
       "id": "af1dc3da21733b",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.457101+00:00"
+      "added_at": "2026-11-24T20:29:33.457101+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283883+00:00"
     },
     {
       "title": "Director Technology & Data Intelligence (w/m/d)",
@@ -151,7 +168,9 @@
       "experience_max": null,
       "id": "05eb4ef189b419",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.459079+00:00"
+      "added_at": "2026-11-24T20:29:33.459079+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283886+00:00"
     },
     {
       "title": "Technical Product Manager",
@@ -168,7 +187,9 @@
       "experience_max": null,
       "id": "bff8cdaef610df",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.459823+00:00"
+      "added_at": "2026-11-24T20:29:33.459823+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283889+00:00"
     },
     {
       "title": "Founding Engineer",
@@ -185,7 +206,9 @@
       "experience_max": null,
       "id": "348963fc210fe7",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.460157+00:00"
+      "added_at": "2026-11-24T20:29:33.460157+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283892+00:00"
     },
     {
       "title": "Software Engineering Intern (Full-Stack)",
@@ -202,7 +225,9 @@
       "experience_max": null,
       "id": "5b620b098d61a7",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.460445+00:00"
+      "added_at": "2026-11-24T20:29:33.460445+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283895+00:00"
     },
     {
       "title": "AI Engineering Intern",
@@ -219,7 +244,9 @@
       "experience_max": null,
       "id": "b1d61f79a4e261",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.460619+00:00"
+      "added_at": "2026-11-24T20:29:33.460619+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283897+00:00"
     },
     {
       "title": "Talent Acquisition Specialist (m/w/d)",
@@ -236,7 +263,9 @@
       "experience_max": null,
       "id": "e8fad61713fb9d",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.462686+00:00"
+      "added_at": "2026-11-24T20:29:33.462686+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283900+00:00"
     },
     {
       "title": "Senior Data & AI Consultant (m/w/d) – Automotive",
@@ -253,7 +282,9 @@
       "experience_max": null,
       "id": "7816083c85d143",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.464878+00:00"
+      "added_at": "2026-11-24T20:29:33.464878+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283903+00:00"
     },
     {
       "title": "Head of Legal",
@@ -270,7 +301,9 @@
       "experience_max": null,
       "id": "383eca999673d2",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.469470+00:00"
+      "added_at": "2026-11-24T20:29:33.469470+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283907+00:00"
     },
     {
       "title": "Finance Operations",
@@ -287,7 +320,9 @@
       "experience_max": null,
       "id": "fd1f776efcda0f",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.470075+00:00"
+      "added_at": "2026-11-24T20:29:33.470075+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283909+00:00"
     },
     {
       "title": "Senior Procurement Specialist",
@@ -306,7 +341,9 @@
       "experience_max": null,
       "id": "0789678949f980",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.470464+00:00"
+      "added_at": "2026-11-24T20:29:33.470464+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283913+00:00"
     },
     {
       "title": "Senior Manager, Design Delivery, EMEA",
@@ -323,7 +360,9 @@
       "experience_max": null,
       "id": "aa2c3c5de425a6",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.471249+00:00"
+      "added_at": "2026-11-24T20:29:33.471249+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283915+00:00"
     },
     {
       "title": "Operations FP&A Manager (Supply Chain & Product)",
@@ -342,7 +381,9 @@
       "experience_max": null,
       "id": "98eb337b6ce05c",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.471613+00:00"
+      "added_at": "2026-11-24T20:29:33.471613+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283918+00:00"
     },
     {
       "title": "Enterprise Account Executive - EU",
@@ -359,7 +400,9 @@
       "experience_max": null,
       "id": "87c30293aa97e4",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.472399+00:00"
+      "added_at": "2026-11-24T20:29:33.472399+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283921+00:00"
     },
     {
       "title": "Enterprise Account Executive",
@@ -376,7 +419,9 @@
       "experience_max": null,
       "id": "f01911a7b001c8",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.472934+00:00"
+      "added_at": "2026-11-24T20:29:33.472934+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283923+00:00"
     },
     {
       "title": "Sales Engineer H/F",
@@ -393,7 +438,9 @@
       "experience_max": null,
       "id": "72eceaa003ae88",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.474814+00:00"
+      "added_at": "2026-11-24T20:29:33.474814+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283926+00:00"
     },
     {
       "title": "Supply Planner H/F",
@@ -410,7 +457,9 @@
       "experience_max": null,
       "id": "35592ee337a241",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.475207+00:00"
+      "added_at": "2026-11-24T20:29:33.475207+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283929+00:00"
     },
     {
       "title": "Tritium Process Engineers",
@@ -427,7 +476,9 @@
       "experience_max": null,
       "id": "59e7147b35797a",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.477571+00:00"
+      "added_at": "2026-11-24T20:29:33.477571+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283932+00:00"
     },
     {
       "title": "Quality Control Engineer (Production)",
@@ -444,7 +495,9 @@
       "experience_max": null,
       "id": "f24a38e4a207e3",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.478412+00:00"
+      "added_at": "2026-11-24T20:29:33.478412+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283934+00:00"
     },
     {
       "title": "Technicien Support IT L1",
@@ -461,7 +514,9 @@
       "experience_max": null,
       "id": "0bd7b55123f70e",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.478634+00:00"
+      "added_at": "2026-11-24T20:29:33.478634+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283936+00:00"
     },
     {
       "title": "Defense Success Manager, France",
@@ -478,7 +533,9 @@
       "experience_max": null,
       "id": "d39be9ad2b1af9",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.479313+00:00"
+      "added_at": "2026-11-24T20:29:33.479313+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283939+00:00"
     },
     {
       "title": "Managing Director (Cable manufacturing)",
@@ -495,7 +552,9 @@
       "experience_max": null,
       "id": "9e1febf8ddd5aa",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.480458+00:00"
+      "added_at": "2026-11-24T20:29:33.480458+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283942+00:00"
     },
     {
       "title": "Senior Managing Consultant",
@@ -512,7 +571,9 @@
       "experience_max": null,
       "id": "997f15a092f40d",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.481339+00:00"
+      "added_at": "2026-11-24T20:29:33.481339+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283944+00:00"
     },
     {
       "title": "Technical Product Owner - Memory Solutions (m/f/d)",
@@ -529,7 +590,9 @@
       "experience_max": null,
       "id": "ea5ab62c9fefbc",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.482576+00:00"
+      "added_at": "2026-11-24T20:29:33.482576+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283947+00:00"
     },
     {
       "title": "Customer Operations Specialist",
@@ -546,7 +609,9 @@
       "experience_max": null,
       "id": "093922236596ce",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.484601+00:00"
+      "added_at": "2026-11-24T20:29:33.484601+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283950+00:00"
     },
     {
       "title": "Product Owner – Inspection Instruments for Infrastructure (Hardware & Software) (m/f/d)",
@@ -563,7 +628,9 @@
       "experience_max": null,
       "id": "8ea650d5ddcc16",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.485398+00:00"
+      "added_at": "2026-11-24T20:29:33.485398+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283953+00:00"
     },
     {
       "title": "Legal Counsel",
@@ -580,7 +647,9 @@
       "experience_max": null,
       "id": "946dde831b1e17",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.486600+00:00"
+      "added_at": "2026-11-24T20:29:33.486600+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283956+00:00"
     },
     {
       "title": "Software Engineer II: Autonomous Supply Chains",
@@ -599,7 +668,9 @@
       "experience_max": null,
       "id": "5a133d732961af",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.487346+00:00"
+      "added_at": "2026-11-24T20:29:33.487346+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283959+00:00"
     },
     {
       "title": "Senior Account Executive Lead",
@@ -616,7 +687,9 @@
       "experience_max": null,
       "id": "9fc61373d2a7c3",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.488786+00:00"
+      "added_at": "2026-11-24T20:29:33.488786+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283961+00:00"
     },
     {
       "title": "Talent Acquisition Business Partner",
@@ -633,7 +706,9 @@
       "experience_max": null,
       "id": "92c5d131c1578e",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.489448+00:00"
+      "added_at": "2026-11-24T20:29:33.489448+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283965+00:00"
     },
     {
       "title": "Strategic Account Executive - Nordics & Baltics",
@@ -650,7 +725,9 @@
       "experience_max": null,
       "id": "55312f3d494a55",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.489871+00:00"
+      "added_at": "2026-11-24T20:29:33.489871+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283967+00:00"
     },
     {
       "title": "Founding Account Executive, Benelux — Advertising (Brands, Agencies, Platforms)",
@@ -667,7 +744,9 @@
       "experience_max": null,
       "id": "be4dc8561dc483",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.491619+00:00"
+      "added_at": "2026-11-24T20:29:33.491619+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283969+00:00"
     },
     {
       "title": "Senior Performance Marketeer",
@@ -684,19 +763,20 @@
       "experience_max": null,
       "id": "ccf9876760b44e",
       "status": "New",
-      "added_at": "2026-11-24T20:29:33.491993+00:00"
+      "added_at": "2026-11-24T20:29:33.491993+00:00",
+      "archive_reason": "Outside India target geography or location not specified",
+      "archived_at": "2026-11-25T11:38:30.283972+00:00"
     }
   ],
-  "archive": [],
   "suppressed": [],
   "meta": {
-    "last_refresh": "2026-11-24T20:29:33.496106+00:00",
-    "last_added": 40,
+    "last_refresh": "2026-11-25T11:38:30.283974+00:00",
+    "last_added": 0,
     "sources_checked": [
-      "Adzuna",
-      "Arbeitnow",
-      "Remotive",
-      "Apify"
+      "Adzuna (Mumbai default)",
+      "Arbeitnow (India-filtered)",
+      "Remotive (India-filtered)",
+      "Apify (India-filtered)"
     ]
   }
 }
